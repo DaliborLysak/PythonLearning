@@ -1,5 +1,4 @@
-from pickle import TRUE
-
+print("Set fibonacci number:")
 num = int(input())
 print("output:")
 
