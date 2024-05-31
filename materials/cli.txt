@@ -1,0 +1,8 @@
+CLI
+
+python <filename>
+
+pytho 
+.. open enviroments
+
+ctrl+z ..close

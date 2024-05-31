@@ -1,5 +1,12 @@
 Documentation
 
+course materials
+
+https://github.com/Pierian-Data/Complete-Python-3-Bootcamp
+
+
+
+
 1. Where can I find the Jupyter Notebooks for the Course? The course is now in Python 3, but still have the older Python 2 notebooks available for reference in case you need them.
 
 Python 3 Notebooks can be found here:

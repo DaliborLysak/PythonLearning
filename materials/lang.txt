@@ -1,0 +1,48 @@
+types
+
+type(x) .. return type
+None .. empty type
+
+[] .. list - mutable
+[{}{}] .. dictionary - mutable
+() .. tuple - imutable
+{} .. set - imutable
+
+I/O
+
+file = open('text.txt') - open file
+file.read() - read file
+file.seek(0) - cursor moving
+file.readlines()
+file.close()
+
+with open('text.txt', mode = 'r') as file:
+  x = file.read()
+  
+  with open('text.txt', mode = 'w') as file:
+  x = file.write('dnsfahfkjhd')
+  
+  mode = r,w,a,r+,w+(overwrite)
+  
+links
+
+Basic Practice:
+
+http://codingbat.com/python
+
+More Mathematical (and Harder) Practice:
+
+https://projecteuler.net/archives
+
+List of Practice Problems:
+
+http://www.codeabbey.com/index/task_list
+
+A SubReddit Devoted to Daily Practice Problems:
+
+https://www.reddit.com/r/dailyprogrammer
+
+A very tricky website with very few hints and touch problems (Not for beginners but still interesting)
+
+http://www.pythonchallenge.com/
+
