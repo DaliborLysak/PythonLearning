@@ -1,4 +1,4 @@
-types
+TYPES
 
 type(x) .. return type
 None .. empty type
@@ -24,7 +24,78 @@ with open('text.txt', mode = 'r') as file:
   
   mode = r,w,a,r+,w+(overwrite)
   
-links
+CONDITIONS 
+
+and 
+or
+not 
+
+if
+elseif
+else  
+
+in 
+
+if condition:
+  ...
+elseif condition:
+  ...
+end:
+  ...
+  
+LOOPS
+  
+for element in list
+  ...
+
+#tuple unpacking
+for a,b,c in list:
+   ...
+   
+#dictionary unpacking
+for key, value in dictionary
+  ...
+  
+while  condition:
+  ...
+else:
+  ...  
+  
+break
+continue
+pass - do nothing
+
+for element in list
+  pass
+  
+OPERATORS
+
+for num in range(3,10,2) #start, end, steps
+  ...
+  
+for element in enumerate(list) # tuples (index, item on index)
+  pass
+  
+for element in zip(list1, list2, list3) # tuples from lists elements by shortest
+  pass
+
+
+BUILD IN FUNCTIONS  
+min
+max
+
+result = input("bla bla")
+
+LIST COMPREHENSIONS
+list = [letter for letter in stringx]
+list = [num**2 for num in list if x <100]
+
+LIBRARIES
+from random import shuffle
+
+shuffle(list)
+
+LINKS
 
 Basic Practice:
 
