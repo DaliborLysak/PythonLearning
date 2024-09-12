@@ -1,5 +1,9 @@
-TYPES
+# Language
 
+help()
+Ex: help(list.pop)
+
+# types
 type(x) .. return type
 None .. empty type
 
@@ -8,7 +12,13 @@ None .. empty type
 () .. tuple - imutable
 {} .. set - imutable
 
-I/O
+TYPES.LIST
+.append()
+.pop()
+.insert()
+
+
+# I/O
 
 file = open('text.txt') - open file
 file.read() - read file
@@ -24,8 +34,9 @@ with open('text.txt', mode = 'r') as file:
   
   mode = r,w,a,r+,w+(overwrite)
   
-CONDITIONS 
+# conditions 
 
+* keys *
 and 
 or
 not 
@@ -43,16 +54,16 @@ elseif condition:
 end:
   ...
   
-LOOPS
+# Loops
   
 for element in list
   ...
 
-#tuple unpacking
+## tuple unpacking
 for a,b,c in list:
    ...
    
-#dictionary unpacking
+## dictionary unpacking
 for key, value in dictionary
   ...
   
@@ -68,7 +79,7 @@ pass - do nothing
 for element in list
   pass
   
-OPERATORS
+# Operators
 
 for num in range(3,10,2) #start, end, steps
   ...
@@ -80,22 +91,48 @@ for element in zip(list1, list2, list3) # tuples from lists elements by shortest
   pass
 
 
-BUILD IN FUNCTIONS  
+# Build in Functions  
 min
 max
 
 result = input("bla bla")
 
-LIST COMPREHENSIONS
+# list comprehensions
 list = [letter for letter in stringx]
 list = [num**2 for num in list if x <100]
 
-LIBRARIES
+# libraries
 from random import shuffle
 
 shuffle(list)
 
-LINKS
+# functions
+
+def name_of_function(atribute = default):
+  '''
+  doc string explains function
+  '''
+  ...
+  ... 
+  return ...
+  
+def name_of_function(*args):
+  '''
+  doc string explains function
+  '''
+  ...
+  ... 
+  return ...
+  
+def name_of_function(**kwargs):
+  '''
+  doc string explains function
+  '''
+  ...
+  ... 
+  return ...
+
+# links
 
 Basic Practice:
 
