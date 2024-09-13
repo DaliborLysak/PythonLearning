@@ -11,12 +11,42 @@ help(list.pop)
 type(x) .. return type
 None .. empty type
 
-[] .. list - mutable
 [{}{}] .. dictionary - mutable
 () .. tuple - imutable
+
+### string slicing
+
+```python
+# String slicing
+String = 'ASTRING'
+
+# Using slice constructor
+s1 = slice(3)
+s2 = slice(1, 5, 2)
+s3 = slice(-1, -12, -2)
+
+print("String slicing")
+print(String[s1])
+print(String[s2])
+print(String[s3])
+
+# String slicing
+# AST
+# SR
+# GITA
+```
+
+### set
+
 {} .. set - imutable
 
-TYPES.LIST
+_empty set_ - x=set()
+
+_add elements from list_ - x.update(list)
+
+### list
+
+[] .. list - mutable
 .append()
 .pop()
 .insert()
