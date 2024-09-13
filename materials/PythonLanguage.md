@@ -1,9 +1,13 @@
 # Language
 
 help()
-Ex: help(list.pop)
 
-# types
+```python
+help(list.pop)
+```
+
+## types
+
 type(x) .. return type
 None .. empty type
 
@@ -17,8 +21,7 @@ TYPES.LIST
 .pop()
 .insert()
 
-
-# I/O
+## I/O
 
 file = open('text.txt') - open file
 file.read() - read file
@@ -26,113 +29,156 @@ file.seek(0) - cursor moving
 file.readlines()
 file.close()
 
+```python
 with open('text.txt', mode = 'r') as file:
   x = file.read()
-  
-  with open('text.txt', mode = 'w') as file:
-  x = file.write('dnsfahfkjhd')
-  
-  mode = r,w,a,r+,w+(overwrite)
-  
-# conditions 
+```
 
-* keys *
-and 
+```python
+with open('text.txt', mode = 'w') as file:
+  x = file.write('dnsfahfkjhd')
+```
+
+mode = r,w,a,r+,w+(overwrite)
+
+## conditions
+
+and
 or
-not 
+not
 
 if
 elseif
-else  
+else
 
-in 
+in
 
 if condition:
-  ...
+...
 elseif condition:
-  ...
+...
 end:
-  ...
-  
-# Loops
-  
-for element in list
-  ...
+...
 
-## tuple unpacking
+## Loops
+
+for element in list
+...
+
+### tuple unpacking
+
 for a,b,c in list:
-   ...
-   
-## dictionary unpacking
+...
+
+### dictionary unpacking
+
 for key, value in dictionary
-  ...
-  
-while  condition:
-  ...
+...
+
+while condition:
+...
 else:
-  ...  
-  
+...
+
 break
 continue
 pass - do nothing
 
 for element in list
-  pass
-  
-# Operators
+pass
+
+## Operators
 
 for num in range(3,10,2) #start, end, steps
-  ...
-  
+...
+
 for element in enumerate(list) # tuples (index, item on index)
-  pass
-  
+pass
+
 for element in zip(list1, list2, list3) # tuples from lists elements by shortest
-  pass
+pass
 
+## Build in Functions
 
-# Build in Functions  
 min
 max
 
 result = input("bla bla")
 
-# list comprehensions
-list = [letter for letter in stringx]
-list = [num**2 for num in list if x <100]
+## list comprehensions
 
-# libraries
+```python
+list = [letter for letter in stringx]
+```
+
+```python
+list = [num**2 for num in list if x <100]
+```
+
+## libraries
+
 from random import shuffle
 
 shuffle(list)
 
-# functions
+## functions
 
 def name_of_function(atribute = default):
-  '''
-  doc string explains function
-  '''
-  ...
-  ... 
-  return ...
-  
-def name_of_function(*args):
-  '''
-  doc string explains function
-  '''
-  ...
-  ... 
-  return ...
-  
-def name_of_function(**kwargs):
-  '''
-  doc string explains function
-  '''
-  ...
-  ... 
-  return ...
+'''
+doc string explains function
+'''
+...
+...
+return ...
 
-# links
+def name_of_function(\*args):
+'''
+doc string explains function
+'''
+...
+...
+return ...
+
+def name_of_function(\*\*kwargs):
+'''
+doc string explains function
+'''
+...
+...
+return ...
+
+## map
+
+map(function, collection)
+
+```python
+for i in map(function, collection)
+```
+
+```python
+list(map(function, collection))
+```
+
+## filter
+
+```python
+list(filter(function, collection))
+```
+
+## lambda
+
+```python
+lambda x: return x**2
+```
+
+## global varialbe
+
+```python
+def func():
+  global x
+```
+
+## links
 
 Basic Practice:
 
@@ -153,4 +199,3 @@ https://www.reddit.com/r/dailyprogrammer
 A very tricky website with very few hints and touch problems (Not for beginners but still interesting)
 
 http://www.pythonchallenge.com/
-
