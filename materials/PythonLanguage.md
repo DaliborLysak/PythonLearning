@@ -97,8 +97,15 @@ for element in list
 
 ### tuple unpacking
 
+```python
 for a,b,c in list:
 ...
+```
+
+```python
+x =(1,2)
+a,b = x
+```
 
 ### dictionary unpacking
 
@@ -147,9 +154,24 @@ list = [num**2 for num in list if x <100]
 
 ## libraries
 
+**system variables**
+
+- C:\Users\lysak\AppData\Local\Programs\Python\Python312
+- C:\Users\lysak\AppData\Local\Programs\Python\Python312\Scripts
+
+**instalation**
+
+```bash
+pip install requests
+```
+
+**using**
+
+```python
 from random import shuffle
 
 shuffle(list)
+```
 
 ## functions
 
@@ -206,6 +228,45 @@ lambda x: return x**2
 ```python
 def func():
   global x
+```
+
+## main script identification
+
+```python
+if name == "_main_":
+```
+
+## oop 
+
+### classes
+
+```python
+class NameOfClass(AncestorClass):
+
+  # static
+  global_param = 'static'
+
+  # constructor
+  def __init__(self, param='default'):
+    AncestorClass.__init__(self)
+    self.param = param
+
+c = NameOfClass(param = 'param')
+```
+
+### delete instance
+
+```python
+del c
+```
+## exceptions
+
+```python
+try:
+except:
+except:
+else:
+finally:
 ```
 
 ## links
