@@ -14,6 +14,21 @@ None .. empty type
 [{}{}] .. dictionary - mutable
 () .. tuple - imutable
 
+### set
+
+{} .. set - imutable
+
+_empty set_ - x=set()
+
+_add elements from list_ - x.update(list)
+
+### list
+
+[] .. list - mutable
+.append()
+.pop()
+.insert()
+
 ### string slicing
 
 ```python
@@ -35,21 +50,6 @@ print(String[s3])
 # SR
 # GITA
 ```
-
-### set
-
-{} .. set - imutable
-
-_empty set_ - x=set()
-
-_add elements from list_ - x.update(list)
-
-### list
-
-[] .. list - mutable
-.append()
-.pop()
-.insert()
 
 ## I/O
 
