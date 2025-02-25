@@ -1,0 +1,18 @@
+myString = "my String is {} awsome"
+print(myString)
+print(myString.capitalize())
+print(myString.casefold())
+print(myString.center(50, "+"))
+print(myString.count("s"))
+print(myString.encode())
+print(myString.endswith("me"))
+print(myString.expandtabs())
+print(myString.find("is"))
+print(myString.format("not"))
+print(myString.index("is"))
+print(myString.isalnum())
+print(myString.isalpha())
+print(myString.isascii())
+print("666".isdecimal())
+print("666".isdigit())
+
