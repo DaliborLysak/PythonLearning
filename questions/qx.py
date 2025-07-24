@@ -19,7 +19,11 @@
 # object.value = 20
 # print(object.value)
 
-for i in range(3):
-    print(i)
-else:
-    print("Loop completed without break")
+# def func(data):
+#     if data == "a":
+#         yield from [1,2]
+#     else:
+#         yield from [3,4]
+
+# print(list(func("b")))
+
