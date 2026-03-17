@@ -27,3 +27,10 @@
 
 # print(list(func("b")))
 
+i = 5
+while i > 0:
+    i -= 1
+    if i == 2:
+        break
+    print(i)
+    
