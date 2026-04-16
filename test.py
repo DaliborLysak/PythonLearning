@@ -1,6 +1,6 @@
-nums = {1,2,3,4,5,6}
-nums = {0,1,2,3} & nums
-print(nums)
+# nums = {1,2,3,4,5,6}
+# nums = {0,1,2,3} & nums
+# print(nums)
 
 # def ask():
 #     val = 0
@@ -18,3 +18,7 @@ print(nums)
 #             break
             
 # ask()
+
+a = ["a","b","c"]
+for index, value in enumerate(a):
+    print(index, value)
